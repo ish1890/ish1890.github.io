@@ -1,0 +1,96 @@
+
+.nav{
+    position: absolute;
+    top: 0;
+    right: 15vw;
+    
+}
+.nav li  a{
+    font-size: 22px;
+}
+/*main pic*/
+.pic{
+    position: absolute;
+   bottom:0vw;
+    right: 50%;
+    width: auto;
+    height:90vh;
+    display: flex;
+    align-items: center;
+    
+   }
+
+.pic img
+{
+   width:900px;
+       
+}
+/*second*/
+   .second{
+       display: none;
+    }
+/*first*/    
+.first{
+       width: 100%;
+      
+   }
+.container{
+       flex-direction: column;
+       overflow: hidden;
+   }
+
+   .main{
+   
+       padding: 3vw;
+       padding-right: 0;
+       height: 40vh;
+       width: 70%;
+       z-index: 10;
+   }
+   
+   .main h1{
+    font-family: 'main';
+    font-size: 80px;
+    line-height: 9vw;
+}
+.main p{
+    font-size: 23px;
+   
+}
+
+.block{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    bottom:-30px;
+    right: -30px;
+    padding: 1.91em;
+    border: 4px solid rgb(197, 197, 197);
+    border-radius:50% 50% 0 50% ;
+    height: 350px;
+    width: 350px;
+}
+.block p{
+    margin-top: 1.1em;
+}
+.block::before{
+    display:none;
+}
+.block::after{
+    display: none;
+}
+#orderbttn {
+    text-decoration: none;
+    padding: 1em 2.5em;
+    margin-top: 1.5em;
+    color: white;
+    background-color: green;
+    border-radius: 15px;
+    transition: all 0.5s;
+    
+ }
+ .bubble{
+     display: block;
+ }
